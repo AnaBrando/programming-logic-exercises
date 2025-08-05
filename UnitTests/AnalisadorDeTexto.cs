@@ -16,6 +16,7 @@ public class AnalisadorDeTexto
                 dic[palavra]++;
             }
         }
+        
         return dic.MaxBy(prop => prop.Value).Key;
     }
 }
